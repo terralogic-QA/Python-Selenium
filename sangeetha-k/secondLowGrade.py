@@ -10,7 +10,7 @@ for i in range(noOfStudents):
 print(studentList)
 
 lowest = studentList[0][1]
-secondLowest = float("-inf")
+secondLowest = studentList[1][1]
 for i in range(1, len(studentList)-1):
     if studentList[i][1] < lowest:
         secondLowest = lowest
