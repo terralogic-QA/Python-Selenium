@@ -1,0 +1,5 @@
+num1 = int(input('Enter value num1: '))
+num2 = int(input('Enter value num2: '))
+print('Entered numbers are: num1 = {} and num2 = {}'.format(num1, num2))
+sum = pow(num1, 3) + pow(num2, 3)
+print('Sum of cubes of two numbers:::: {}'.format(sum))
